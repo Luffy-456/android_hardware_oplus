@@ -28,7 +28,6 @@
 /dev/oplus_consumer_ir                                    u:object_r:oplus_consumerir_device:s0
 
 # NFC
-/vendor/bin/hw/android\.hardware\.nfc-service\.nxp               u:object_r:hal_nfc_default_exec:s0
 /vendor/bin/hw/android\.hardware\.secure_element-service\.nxp    u:object_r:hal_secure_element_default_exec:s0
 /dev/nq-nci                                                      u:object_r:nfc_device:s0
 /dev/p73                                                         u:object_r:nfc_device:s0
