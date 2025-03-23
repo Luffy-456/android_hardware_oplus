@@ -24,8 +24,8 @@
 /odm/firmware(/.*)?       u:object_r:vendor_configs_file:s0
 
 # IR
-/(odm|vendor/odm)/bin/hw/android\.hardware\.ir-service    u:object_r:hal_ir_default_exec:s0
-/dev/oplus_consumer_ir                                    u:object_r:oplus_consumerir_device:s0
+/vendor/bin/hw/android\.hardware\.ir-service\.oplus    u:object_r:hal_ir_default_exec:s0
+/dev/oplus_consumer_ir                                 u:object_r:oplus_consumerir_device:s0
 
 # NFC
 /vendor/bin/hw/android\.hardware\.secure_element-service\.nxp    u:object_r:hal_secure_element_default_exec:s0
