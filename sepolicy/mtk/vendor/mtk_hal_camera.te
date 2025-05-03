@@ -1,4 +1,4 @@
-allow mtk_hal_camera fwk_osense_aidl_service:service_manager find;
+allow mtk_hal_camera hal_oplus_osense_aidl_service:service_manager find;
 allow mtk_hal_camera hal_oplus_urcc_aidl_service:service_manager find;
 
 allow mtk_hal_camera persist_camera_file:dir rw_dir_perms;
